@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+    --soft-light: #E8D0BE88;
+    --text-title: #FF4040;
+    --text-font: 'Montserrat', 'sans-serif';
+    --navMembersBackgroundColor: #7F0000;
+    --navMembersTextColor: white;
+}
+
+body {
+    background-color: var(--soft-light);
+    color: var(--text-title);
+    font-family: var(--text-font);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.githubLogo {
+    width: 80px;
+}
+
+.full-screen {
+    min-height: 100vh;
+}
+
+.nav-members {
+    background-color: var(--navMembersBackgroundColor);
+}
+
+.nav-members a {
+    color: var(--navMembersTextColor);
+}
